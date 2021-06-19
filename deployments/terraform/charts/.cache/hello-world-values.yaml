@@ -22,14 +22,14 @@ ingress:
     kubernetes.io/ingress.class: nginx
     cert-manager.io/cluster-issuer: letsencrypt-prod
   hosts:
-    - host: qa.hello.fuchicorp.com
+    - host: dev.hello.fuchicorp.com
       paths:
       - '/'
 
   tls:
   - secretName: chart-example-tls
     hosts:
-      - qa.hello.fuchicorp.com
+      - dev.hello.fuchicorp.com
 
 resources: {}
   # We usually recommend not to specify default resources and to leave this as a conscious

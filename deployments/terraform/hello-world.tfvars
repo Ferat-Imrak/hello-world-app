@@ -1,5 +1,5 @@
 google_project_id       = "kubernetes-ferat"
 google_bucket_name      = "fuchicorp-ferat"
-deployment_environment  = "qa"
+deployment_environment  = "dev"
 deployment_name         = "hello-world"
 credentials             = "fuchicorp-service-account.json"
